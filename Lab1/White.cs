@@ -1,8 +1,19 @@
-﻿namespace Lab1
+namespace Lab1
 {
-    public class White
+    public class Blue
     {
-        public bool Task1(double d)
+        public bool Task1(int a, int b)
+        {
+            bool answer = false;
+
+            // code here
+            answer = true;
+            Console.WriteLine()
+            // end
+
+            return answer;
+        }
+        public bool Task2(double d)
         {
             bool answer = false;
 
@@ -12,7 +23,7 @@
 
             return answer;
         }
-        public bool Task2(int n)
+        public bool Task3(int a, int b)
         {
             bool answer = false;
 
@@ -22,17 +33,7 @@
 
             return answer;
         }
-        public int Task3(int a, int b)
-        {
-            int answer = 0;
-
-            // code here
-
-            // end
-
-            return answer;
-        }
-        public double Task4(double d, double f)
+        public double Task4(double d, double f, double g)
         {
             double answer = 0;
 
@@ -52,7 +53,7 @@
 
             return answer;
         }
-        public bool Task6(double x, double y, double r)
+        public bool Task6(double circleS, double squareS)
         {
             bool answer = false;
 
@@ -63,9 +64,9 @@
             return answer;
         }
 
-        public bool Task7(int n)
+        public double Task7(double d, double f)
         {
-            bool answer = false;
+            int answer = 0;
 
             // code here
 
@@ -73,12 +74,12 @@
 
             return answer;
         }
-        public bool Task8(double L, int T, int M)
+        public bool Task8(int a, int b, int c)
         {
             bool answer = false;
 
             // code here
-
+            
             // end
 
             return answer;
